@@ -1,0 +1,7 @@
+.footer {
+  background-color: teal;
+  color: aliceblue;
+}
+.footer > p {
+  margin: 0px 10px;
+}

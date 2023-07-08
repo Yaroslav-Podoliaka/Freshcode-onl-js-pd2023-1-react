@@ -1,0 +1,10 @@
+.main{
+  margin: 10px;
+}
+.container {
+  display: flex;
+  justify-content:space-between;
+}
+.actors, .info{
+  padding-left: 10px;
+}
