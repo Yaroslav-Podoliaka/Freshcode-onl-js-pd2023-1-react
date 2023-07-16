@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class InfoPlot extends Component {
+export class InfoArticle extends Component {
   render() {
     const { title, content } = this.props;
     return (
@@ -8,8 +8,13 @@ export class InfoPlot extends Component {
         <h2>{title}</h2>
         <p>{content}</p>
       </article>
+      // <>
+      //   {this.props.actors.map((actor) => {
+      //     return <p key={actor}>{actor}</p>
+      // })}
+      // </>
     );
   }
 }
 
-export default InfoPlot
+export default InfoArticle
